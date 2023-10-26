@@ -68,3 +68,4 @@ jobs:
 
     - name: Build and push
       run: docker push jilarasnat/jilajavaapp
+
