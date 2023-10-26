@@ -68,7 +68,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and push
-      uses: docker/build-push-action@v5
-      with:
-          push: true
-          tags: jilarasnat/jilajavaapp:latest
+      run: docker push jilarasnat/jilajavaapp
